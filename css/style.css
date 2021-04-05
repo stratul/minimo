@@ -20,12 +20,14 @@ a {
 }
 
 .container {
-	width: 1140px;
+	max-width: 1140px;
+	width: 80%;
 	margin: auto;
 }
 
 .wrapper {
-	width: 1000px;
+	max-width: 1000px;
+	width: 70%;
 	margin: auto;
 	padding: 50px 0;
 }
@@ -38,13 +40,14 @@ a {
 }
 
 .logo {
-	width: 30%;
+	/* width: 20%; */
 	float: left;
+	cursor: pointer;
 }
 
 .nav-menu {
-	width: 70%;
-	float: left;
+	/* width: 80%; */
+	float: right;
 	text-align: right;
 }
 
@@ -54,14 +57,17 @@ a {
 }
 
 .nav-menu ul li a {
+	display: inline-block;
 	font-family: 'Playfair Display', serif;
 	color: #626262;
 	font-size: 14px;
 	text-transform: uppercase;
+	transition: all 0.3s ease;
 }
 
 .nav-menu ul li a:hover {
 	color: red;
+	transform: scale(1.1);
 }
 
 /* ======== HEADER SECTION END ======== */
@@ -115,7 +121,8 @@ a {
 /* ======== POST ONE SECTION START ========*/
 
 .post-section {
-	width: 1000px;
+	max-width: 1000px;
+	width: 90%;
 	margin: auto;
 	padding: 50px 0;
     display: flow-root;

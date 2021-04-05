@@ -1,0 +1,25 @@
+@media screen and (max-width: 840px){
+
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+    
+    .wrapper {
+        width: 80%;
+        margin: auto;
+    }
+
+    .nav-menu ul li {
+        display: inline-block;
+        padding-left: 30px;
+    }
+    .left {
+        width: 100%;
+        float: left;
+    }
+    .right {
+        width: 100%;
+        float: left;
+    }
+}
